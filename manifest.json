@@ -1,6 +1,6 @@
 {
     "name": "Like on Git",
-    "short_name": "LikeOnGit",
+    "short_name": "NoteonGit",
     "description": "Use this extension to save your links to your GitHub repo.",
     "version": "1.1.0",
     "background": {
@@ -21,9 +21,12 @@
     ],
     "browser_action": {
         "default_title": "Like on Git",
-        "default_icon": "icons/standard-16.png"
+        "default_icon": "icons/standard-16.png",
+        "default_popup": "popup.html"
+
     },
     "manifest_version": 2,
-    "homepage_url": "http://github.com/idnan",
+    "homepage_url": "https://github.com/bishoyh/like-on-git",
     "options_page": "options.html"
+
 }
