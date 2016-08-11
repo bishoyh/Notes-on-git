@@ -1,11 +1,12 @@
 {
-    "name": "Like on Git",
+    "name": "NotesOnGit",
     "short_name": "NoteonGit",
     "description": "Use this extension to save your links to your GitHub repo.",
     "version": "1.1.0",
     "background": {
         "scripts": [
-            "scripts/widget.js"
+            "scripts/widget.js",
+            "scripts/popup.js"
         ]
     },
     "icons": {
@@ -20,7 +21,7 @@
         "https://*/*"
     ],
     "browser_action": {
-        "default_title": "Like on Git",
+        "default_title": "Note on Git",
         "default_icon": "icons/standard-16.png",
         "default_popup": "popup.html"
 
