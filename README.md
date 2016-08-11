@@ -6,8 +6,7 @@ It makes it seem-less to create "today-i-read" repository where you put all the 
 
 ## Installation
 
-- Install it from the chrome webstore by following the URL: https://goo.gl/Wj595G
-- Or download the extension and [load it manually](http://superuser.com/questions/247651/how-does-one-install-an-extension-for-chrome-browser-from-the-local-file-system/247654#247654)
+for now (chrome store coming soon) download the extension and [load it manually](http://superuser.com/questions/247651/how-does-one-install-an-extension-for-chrome-browser-from-the-local-file-system/247654#247654)
 
 ## Setup
 
