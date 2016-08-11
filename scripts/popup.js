@@ -8,6 +8,8 @@ console.log('Popup');
 
 
 document.getElementById("submit").addEventListener("click", myFunction);
+
+
 function myFunction() {
 //console.log('myfunction');
     // get current selected tab
@@ -68,13 +70,14 @@ console.log (activeTab.title)
         }))
             .then(success => setSuccessIcon())
             .catch(error => setErrorIcon());
-
+           
         /**
          * Get value from storage
          *
          * @param val
          * @returns {string}
          */
+
         function get(val) {
             return localStorage.getItem(val) ? localStorage.getItem(val) : '';
         }
@@ -135,6 +138,7 @@ console.log (activeTab.title)
          */
         function setDefaultIcon() {
             sleep(1000).then(() => chrome.browserAction.setIcon({path: 'icons/standard-16.png'}));
+            sleep(2000).then(() => window.close());
         }
 
         /**
@@ -143,6 +147,7 @@ console.log (activeTab.title)
         function setSuccessIcon() {
             chrome.browserAction.setIcon({path: 'icons/check-mark.png'});
             setDefaultIcon();
+
         }
 
         /**
@@ -162,9 +167,7 @@ console.log (activeTab.title)
         function sleep(time) {
             return new Promise((resolve) => setTimeout(resolve, time));
         }
+        
     });
-     // document.getElementById('whyimp').value = "yes";
-
 }
-
 

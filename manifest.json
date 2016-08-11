@@ -1,11 +1,10 @@
 {
     "name": "NotesOnGit",
     "short_name": "NoteonGit",
-    "description": "Use this extension to save your links to your GitHub repo.",
+    "description": "Use this extension to take notes and save your links to your GitHub repo.",
     "version": "1.1.0",
     "background": {
         "scripts": [
-            "scripts/widget.js",
             "scripts/popup.js"
         ]
     },
@@ -21,13 +20,13 @@
         "https://*/*"
     ],
     "browser_action": {
-        "default_title": "Note on Git",
+        "default_title": "Notes on GitHub",
         "default_icon": "icons/standard-16.png",
         "default_popup": "popup.html"
 
     },
     "manifest_version": 2,
-    "homepage_url": "https://github.com/bishoyh/like-on-git",
+    "homepage_url": "https://github.com/bishoyh/notes-on-git",
     "options_page": "options.html"
 
 }
