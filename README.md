@@ -1,12 +1,12 @@
-# Like on Git
-> Chrome extension to save links that you like on Github repository that you specify
+# Notes on Git adapted from like-on-git
+> Chrome extension that Takes notes while saving links to your Github rep of choice
+
 
 It makes it seem-less to create "today-i-read" repository where you put all the links that you read or liked. Just click a button and the link will be committed to your repository under the current date.
 
 ## Installation
 
-- Install it from the chrome webstore by following the URL: https://goo.gl/Wj595G
-- Or download the extension and [load it manually](http://superuser.com/questions/247651/how-does-one-install-an-extension-for-chrome-browser-from-the-local-file-system/247654#247654)
+for now (chrome store coming soon) download the extension and [load it manually](http://superuser.com/questions/247651/how-does-one-install-an-extension-for-chrome-browser-from-the-local-file-system/247654#247654)
 
 ## Setup
 
@@ -40,5 +40,5 @@ Feel free to share, fork, enhance, create PRs or lock issues.
 
 ## License
 
-MIT &copy; [Adnan Ahmed](http://github.com/idnan)
+MIT &copy; [Adnan Ahmed](http://github.com/idnan) [Bishoy Hanna](http://github.com/bishoyh)
 
